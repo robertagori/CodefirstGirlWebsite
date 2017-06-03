@@ -1,0 +1,138 @@
+* {
+  margin: 0;
+}
+
+body {
+  margin: 0;
+  font-size: 16px;
+  background-color: rgb(240,240,240);
+}
+
+#corpo, #footer  {
+  margin:auto;
+  max-width:96.5em;
+  box-shadow: 0px 15px 20px rgba(0,0,0,.4), 0 20px 20px rgba(0,0,0,.3);
+}
+
+#social {
+  text-align: right;
+  background: white;
+}
+
+#social img {
+  height: 2.6em;
+  padding-right: 0.5em;
+}
+
+#immagine {
+  position: relative;
+  width: 100%;
+}
+
+#immagine img {
+  width: 100%;
+  padding-bottom: 0px;
+}
+
+#immagine h1 {
+  position: absolute; 
+  top: 50%;left:50%;
+  transform:translate(-50%,-50%);
+  text-align: center;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 4em;
+  color: white;
+}
+
+#nav {
+  background-color: black;
+  padding: .75em;
+  text-align: center;
+}
+
+#nav a {
+  color: white;
+  font-size: 1.4em;
+  text-decoration: none;
+  padding: 0.5em 2em;
+  display: inline-block,
+}
+
+#corpo {
+  width: 90%;
+  float: center;
+  background: white;
+}
+
+#articolo h2 {
+  font-size: 3em;
+  padding: 1.5em 0 0.6em 0.3em;
+  font-weight: bold;
+}
+
+#ciao {
+  width: 100%;
+  box-shadow: 0px 15px 20px rgba(0,0,0,.4);
+}
+
+#paragrafo {
+  text-align: justify;
+  font-size: 1.3em;
+  padding: 3em 4em 14em 4em; 
+}
+
+#paragrafo p {
+  padding-bottom: 1em; 
+}
+
+#paragrafo img {
+  padding: 1.5em 0 1.5em 0;
+  width: 100%; 
+}
+
+
+#griglia img {
+  width: 100%;
+  position: relative;
+}
+
+#griglia a {
+  text-align: left;
+  text-decoration: none;
+  font-size: 1.2em;
+  color: black;
+  font-weight: bold;
+}
+
+
+#griglia td {
+  padding: 0 1em 1em 1em;
+  width: 33.3%;
+  text-align: justify;
+}
+
+#griglia {
+  padding-bottom: 3em;
+}
+
+#post h2 {
+  font-size: 2.5em;
+  padding-bottom: 0.7em;
+  padding-left: 0.4em;
+}
+
+#post {
+  padding: 0 4em 1em 4em;
+}
+
+
+
+footer {
+  background: black;
+  color: white;
+  padding: 1em;
+  right: 2%;
+  font-size: 1em;
+  text-align: center;
+}
