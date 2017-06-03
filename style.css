@@ -1,0 +1,149 @@
+* {
+	margin: 0;
+}
+
+body {
+ 	margin: 0;
+ 	font-size: 16px;
+ 	background-color: rgb(240,240,240);
+}
+
+#corpo, #footer  {
+	margin:auto;
+	max-width:96.5em;
+	box-shadow: 0px 15px 20px rgba(0,0,0,.4), 0 20px 20px rgba(0,0,0,.3);
+}
+
+#social {
+	text-align: right;
+	background: white;
+}
+
+#social img {
+	height: 2.6em;
+	padding-right: 0.5em;
+}
+
+#immagine {
+	position: relative;
+	width: 100%;
+}
+
+#immagine img {
+	width: 100%;
+	padding-bottom: 0px;
+}
+
+#immagine h1 {
+	position: absolute; 
+	top: 50%;left:50%;
+	transform:translate(-50%,-50%);
+	text-align: center;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-size: 4em;
+	color: white;
+}
+
+#nav {
+	background-color: black;
+	padding: .75em;
+	text-align: center;
+}
+
+#nav a {
+	color: white;
+	font-size: 1.4em;
+	text-decoration: none;
+	padding: 0.5em 2em;
+	display: inline-block,
+}
+
+#corpo {
+	width: 90%;
+	float: center;
+	background: white;
+}
+
+.title {
+	font-size: 3em;
+	padding: 1.5em 0 0.6em 0.3em;
+	font-weight: bold;
+}
+
+#articoloprincipale {
+	position: relative;
+}
+
+#articoloprincipale img {
+	width: 100%;
+	box-shadow: 0px 15px 20px rgba(0,0,0,.4);
+}
+
+#milano :hover  {
+	color: black;
+	background-color: rgba(255,255,255,0.5);
+}
+
+#milano h1 {
+	position: absolute; 
+	top: 50%;left:50%;
+	transform:translate(-50%,-50%);
+	text-align: center;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-size: 4em;
+	color: white;
+}
+
+#milano p {
+	position: absolute; 
+	top: 70%;left:50%;
+	transform:translate(-50%,-50%);
+	text-align: center;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-size: 2.5em;
+	color: white;
+	border: 3px solid white;
+}
+
+
+#griglia img {
+	width: 100%;
+	position: relative;
+}
+
+#griglia a {
+	text-align: center;
+	text-decoration: none;
+	font-size: 1em;
+	color: black;
+	font-weight: bold;
+}
+
+
+#griglia td {
+	padding: 0 1em 1em 1em;
+	width: 33.3%;
+	text-align: justify;
+}
+
+#griglia h2 {
+	font-style: bold;
+	font-size: 1.5em;
+	padding-top: 0;
+}
+
+#griglia {
+	padding: 0 4em 3em 4em;
+}
+
+footer {
+	background: black;
+	color: white;
+	padding: 1em;
+	right: 2%;
+	font-size: 1em;
+	text-align: center;
+}
