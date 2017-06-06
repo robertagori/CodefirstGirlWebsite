@@ -4,17 +4,28 @@
 <head>
   <link rel="stylesheet" type="text/css" href="style.css">
 	<title>Around The World</title>
+  <!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+<!-- Optional theme -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+
 </head>
 
 <body>
+<nav class="navbar navbar-default navbar-fixed-top">
+  <div class="container">
+    <div id="social">
+      <a href="http://www.facebook.com"><img src="IMAGES/facebook.jpg"></a>
+      <a href="http://www.instagram.com"><img src="IMAGES/instagram.jpg"></a>
+      <a href="http://www.twitter.com"><img src="IMAGES/twitter.jpg"></a>
+      <a href="http://www.pinterest.com"><img src="IMAGES/pinterest.jpg"></a>
+      <a href="http://www.youtube.com"><img src="IMAGES/youtube.jpg"></a> 
+    </div>
+  </div>
+</nav>
 
-<div id="social">
-  <a href="http://www.facebook.com"><img src="IMAGES/facebook.jpg"></a>
-  <a href="http://www.instagram.com"><img src="IMAGES/instagram.jpg"></a>
-  <a href="http://www.twitter.com"><img src="IMAGES/twitter.jpg"></a>
-  <a href="http://www.pinterest.com"><img src="IMAGES/pinterest.jpg"></a>
-  <a href="http://www.youtube.com"><img src="IMAGES/youtube.jpg"></a>	
-</div>
+
 
 <div id="immagine">
   <img src="IMAGES/copertina.jpg">
@@ -23,7 +34,7 @@
 
 <div id="nav">
   	<a href="#">About</a>
-  	<a href="#">Home</a>
+  	<a href="file:///C:/Users/Roberta/Desktop/CodefirstGirlWebsite/index.html">Home</a>
   	<a href="#">Adventure</a>
   	<a href="#">Relax</a>
   	<a href="#">On the Road</a>
@@ -32,13 +43,13 @@
 
 <div id="corpo">
   <div id="articoloprincipale">
+   <a href="file:///C:/Users/Roberta/Desktop/CodefirstGirlWebsite/Article.html" class="milan">
     <h2 class="title">WHAT'S NEW</h2>
-    <a href="" id="milano">
-    <div>
+      <div id="milano">
       <h1>MILANO</h1>
-      <p>READ ME</p>
+     <p>READ ME</p>
+      <span></span>
     </div>
-    <img id="milano" src="IMAGES/milano.jpg">
     </a>
   </div>
 
@@ -61,9 +72,9 @@
         <td>The frosty air of that morning shortened my breath and I could feel my lungs stinging under million of needles. The guide advised us the day before: that would be one of the coldest day of the last 10 years. My group and I were about to spend the next 8 hours of the day, riding in the back seat of a Russian van...</td>
       </tr>
       <tr>
-        <td><a href="#"><p>READ MORE</p></a></td>
-        <td><a href="#"><p>READ MORE</p></a></td>
-        <td><a href="#"><p>READ MORE</p></a></td>
+        <td><a href="#"><button type="button" class="btn btn-default navbar-btn">READ MORE</button></a></td>
+        <td><a href="#"><button type="button" class="btn btn-default navbar-btn">READ MORE</button></a></td>
+        <td><a href="#"><button type="button" class="btn btn-default navbar-btn">READ MORE</button></a></td>
       </tr>
       <tr>
         <td><img src="IMAGES/img4.jpg"></td>
@@ -81,12 +92,31 @@
         <td>I've never seen such a beautiful contrast of colours, the intense red and purple of the rocks and the bright blue of the sky, but this  part of the fascination of the Australian Red Centre...</td>
       </tr>
       <tr>
-        <td><a href="#"><p>READ MORE</p></a></td>
-        <td><a href="#"><p>READ MORE</p></a></td>
-        <td><a href="#"><p>READ MORE</p></a></td>
+        <td><a href="#"><button type="button" class="btn btn-default navbar-btn">READ MORE</button></a></td>
+        <td><a href="#"><button type="button" class="btn btn-default navbar-btn">READ MORE</button></a></td>
+        <td><a href="#"><button type="button" class="btn btn-default navbar-btn">READ MORE</button></a></td>
       </tr>
     </table>
   </div>
+  <nav aria-label="Page navigation" class="ciao">
+  <ul class="pagination">
+    <li>
+      <a href="#" aria-label="Previous">
+        <span aria-hidden="true">&laquo;</span>
+      </a>
+    </li>
+    <li><a href="#">1</a></li>
+    <li><a href="#">2</a></li>
+    <li><a href="#">3</a></li>
+    <li><a href="#">4</a></li>
+    <li><a href="#">5</a></li>
+    <li>
+      <a href="#" aria-label="Next">
+        <span aria-hidden="true">&raquo;</span>
+      </a>
+    </li>
+  </ul>
+</nav>
 </div>
 </body>
 

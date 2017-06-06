@@ -1,5 +1,7 @@
 * {
   margin: 0;
+  font-family: Helvetica;
+
 }
 
 body {
@@ -64,6 +66,9 @@ body {
   float: center;
   background: white;
 }
+#corpo img {
+  width: 100%;
+}
 
 #articolo h2 {
   font-size: 3em;
@@ -79,7 +84,7 @@ body {
 #paragrafo {
   text-align: justify;
   font-size: 1.3em;
-  padding: 3em 4em 14em 4em; 
+  padding: 3em 4em 4em 4em; 
 }
 
 #paragrafo p {
@@ -88,9 +93,24 @@ body {
 
 #paragrafo img {
   padding: 1.5em 0 1.5em 0;
-  width: 100%; 
 }
 
+textarea {
+  width: 100%;
+  height: 200px;
+  padding: 1em;
+  font-size: 1.3em;
+}
+
+#comment {
+  padding: 3em 4em 3em 5em; 
+}
+
+#box p{
+  padding-left: 1em;
+  font-size: 1.2em;
+  color: rgb(90,90,90);
+}
 
 #griglia img {
   width: 100%;
